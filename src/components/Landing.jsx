@@ -1,9 +1,11 @@
+import Header from "./Header.jsx"
+
 const Landing = () => {
     return (
         <div className="pagecentercontainer">
             <div className="separator-div"></div>
             <div className="pagecontent">
-                <div>Amir</div>
+                <Header />
             </div>
             <div className="separator-div"></div>
         </div>
