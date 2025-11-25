@@ -18,4 +18,5 @@ const Resume = () => {
         </div>
     )
 }
+
 export default Resume
