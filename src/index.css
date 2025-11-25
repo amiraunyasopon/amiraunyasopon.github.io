@@ -8,3 +8,7 @@
 @theme {
     --font-ZalandoSans: ZalandoSans, sans-serif
 }
+
+body {
+    @apply bg-zinc-950 text-white;
+}
