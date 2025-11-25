@@ -6,11 +6,11 @@ const Resume = () => {
                 <h1 className="text-3xl text-center">Resume</h1>
                 <div className="border-t border-gray-300 my-5"></div>
                 <div className="w-full h-[80vh]">
-                    <embed
+                    <iframe
                         src="./AmirAunyasoponComputerScienceResume.pdf"
                         title="Resume"
                         className="w-full h-full"
-                    ></embed>
+                    ></iframe>
                 </div>
                 <div className="border-t border-gray-300 my-5"></div>
                 <Footer />
