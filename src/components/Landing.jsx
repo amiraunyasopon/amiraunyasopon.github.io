@@ -1,6 +1,6 @@
 import Header from "./Header"
-import Experience from "./Experience"
 import Footer from "./Footer"
+import Experience from "./Experience"
 const Landing = () => {
     return (
         <div className="flex flex-col items-center min-h-screen">
@@ -10,7 +10,7 @@ const Landing = () => {
                 <div>
                     <div>
                         <Experience title="Software Development Intern" description="Incoming" company="Opal" link="https://www.opal.community" time="December 2025 — Present" image="./opal.webp" imagealt="Opal logo" />
-                        <Experience title="Game Programmer" description="Settings, shop, and ranged character implementation" company="Dungeon Dilemma" link="https://vgdc-uci.framer.website" time="September 2025 — November 2025" image="./vgdc.webp" imagealt="Video Game Development Club at UCI logo" />
+                        <Experience title="Game Programmer" description="Settings, shop, and ranged character implementation" company="Dungeon Dilemma" link="https://vgdc-uci.framer.website" time="September 2025 — December 2025" image="./vgdc.webp" imagealt="Video Game Development Club at UCI logo" />
                         <Experience title="Data Analytics Intern" description="Administrative and literacy services" company="City of Burbank" link="https://www.burbankca.gov" time="June 2025 — August 2025" image="./cityofburbank.webp" imagealt="City of Burbank logo" />
                     </div>
                 </div>
