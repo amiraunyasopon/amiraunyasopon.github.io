@@ -1,1 +1,10 @@
 @import 'tailwindcss';
+
+@font-face {
+    font-family: ZalandoSans;
+    src: url("../src/fonts/ZalandoSansSemiExpanded-VariableFont_wght.ttf");
+}
+
+@theme {
+    --font-ZalandoSans: ZalandoSans, sans-serif
+}
