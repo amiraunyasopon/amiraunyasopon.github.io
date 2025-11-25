@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <div className="flex space-x-4 p-4">
+        <div className="flex space-x-4 p-4 flex">
             <Link to="/">
                 <button className="font-bold">
                     About

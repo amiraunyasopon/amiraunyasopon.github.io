@@ -4,7 +4,7 @@ import Footer from "./Footer"
 const Landing = () => {
     return (
         <div className="flex flex-col items-center min-h-screen">
-            <div className="">
+            <div className="outline-2px min-w-screen px-24">
                 <Header />
                 <div className="border-t border-gray-300 my-5"></div>
                 <div className="">
