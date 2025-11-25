@@ -1,8 +1,18 @@
 const Experience = (props) => {
     return (
-        <div className="flex">
-            <p>{props.text}</p>
-            <img src={props.image} alt={props.imagealt}/>
+        <div className="flex justify-between my-5">
+            <div className="flex-1">
+                <a href={props.link}>{props.company}</a>
+                <p>{props.title}</p>
+            </div>
+            <div className="flex-1">
+                <p className="text-bold">{props.time}</p>
+                <br></br>
+                <p>{props.description}</p>
+            </div>
+            <div className="flex-1 justify-center">
+                <img src={props.image} alt={props.imagealt} className="h-full w-full object-contain"/>
+            </div>
         </div>
     )
 }

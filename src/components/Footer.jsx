@@ -1,6 +1,9 @@
 const Footer = () => {
     return (
-        <p>Footer</p>
+        <div className="flex justify-between">
+            <p>This website was made with React, Tailwind, and Vite.</p>
+            <a href="https://github.com/amiraunyasopon/amiraunyasopon.github.io" className="color-blue">View the source!</a>
+        </div>
     )
 }
 export default Footer
