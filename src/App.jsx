@@ -3,6 +3,7 @@ import { useRoutes } from 'react-router-dom'
 import Landing from './components/Landing'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
+import Navbar from './components/Navbar'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
     ])
     return (
         <div>
+            <Navbar />
             {element}
         </div>
     )
