@@ -10,17 +10,17 @@ const Contact = () => {
                         <div className="px-5">
                             <p>📧</p>
                             <p>Email</p>
-                            <a href="maleto:asopon@uci.edu">asopon@uci.edu</a>
+                            <a href="maleto:asopon@uci.edu" className="text-decorate-line: underline">asopon@uci.edu</a>
                         </div>
                         <div className="px-5">
                             <p>💼</p>
                             <p>LinkedIn</p>
-                            <a href="https://www.linkedin.com/in/amiraunyasopon/">Amir Aunyasopon</a>
+                            <a href="https://www.linkedin.com/in/amiraunyasopon/" className="text-decorate-line: underline">Amir Aunyasopon</a>
                         </div>
                         <div className="px-5">
                             <p>🛠️</p>
                             <p>GitHub</p>
-                            <a href="https://github.com/amiraunyasopon">amiraunyasopon</a>
+                            <a href="https://github.com/amiraunyasopon" className="text-decorate-line: underline">amiraunyasopon</a>
                         </div>
                     </div>
                     <p>Feel free to reach out to me for any inquiries</p>
