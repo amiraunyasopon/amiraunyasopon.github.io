@@ -11,7 +11,9 @@ const Experience = (props) => {
                 <p>{props.description}</p>
             </div>
             <div className="flex-1 justify-center">
-                <img src={props.image} alt={props.imagealt} className="h-full w-full object-contain"/>
+                <a href={props.link}>
+                    <img src={props.image} alt={props.imagealt} className="h-full w-full object-contain hover:brightness-75 trnsition duration-300" />
+                </a>
             </div>
         </div>
     )
