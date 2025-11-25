@@ -3,7 +3,13 @@ import './App.css'
 function App() {
     return (
         <>
-            <p>Amir Aunyasopon</p>
+            <div className="pagecentercontainer">
+                <div class="separator-div"></div>
+                <div className="pagecontent">
+                    <div>Amir</div>
+                </div>
+                <div class="separator-div"></div>
+            </div>
         </>
     )
 }

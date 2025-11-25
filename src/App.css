@@ -1,0 +1,6 @@
+.separator-div {
+    border-top: 1px solid #ccc;
+    /* Horizontal line */
+    margin: 20px 0;
+    /* Spacing above and below */
+}
