@@ -8,7 +8,7 @@ const Resume = () => {
                 <div className="border-t border-gray-300 my-5"></div>
                 <div className="w-full h-[80vh]">
                     <iframe
-                        src="./AmirAunyasoponComputerScienceResume.pdf"
+                        src="./Amir_Aunyasopon_Computer_Science_Resume.pdf"
                         title="Resume"
                         className="w-full h-full"
                         style={{ border: "none" }}
