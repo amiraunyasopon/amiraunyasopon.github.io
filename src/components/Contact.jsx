@@ -2,7 +2,7 @@ import Footer from "./Footer";
 
 const Contact = () => {
     return (
-        <div className="flex flex-col items-center min-h-screen">
+        <div className="flex flex-col items-center min-h-screen bg-neutral-800">
             <div className="w-full max-w-screen-lg px-4 sm:px-8">
                 <h1 className="text-3xl text-center">Contact</h1>
                 <div className="border-t border-gray-300 my-5"></div>
@@ -14,7 +14,8 @@ const Contact = () => {
                             <a
                                 href="mailto:asopon@uci.edu"
                                 className="underline
-                            ">
+                            "
+                            >
                                 asopon@uci.edu
                             </a>
                         </div>

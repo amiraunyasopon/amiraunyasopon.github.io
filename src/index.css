@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @font-face {
     font-family: ZalandoSans;
@@ -6,9 +6,9 @@
 }
 
 @theme {
-    --font-ZalandoSans: ZalandoSans, sans-serif
+    --font-ZalandoSans: ZalandoSans, sans-serif;
 }
 
 body {
-    @apply bg-zinc-950 text-white;
+    @apply bg-neutral-800 text-white;
 }
