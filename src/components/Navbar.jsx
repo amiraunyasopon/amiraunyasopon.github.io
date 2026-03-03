@@ -5,7 +5,12 @@ const Navbar = () => {
         <div className="flex space-x-4 p-4 flex">
             <Link to="/">
                 <button className="font-bold">
-                    About
+                    Experience
+                </button>
+            </Link>
+            <Link to="/organizations">
+                <button className="font-bold">
+                    Organizations
                 </button>
             </Link>
             <Link to="/resume">
