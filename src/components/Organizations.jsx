@@ -5,7 +5,7 @@ const Organizations = () => {
     return (
         <div className="flex flex-col items-center min-h-screen">
             <div className="outline-2px min-w-screen px-24">
-                <Header />
+                <h1 className="text-3xl text-center">Organizations</h1>
                 <div className="border-t border-gray-300 my-5"></div>
                 <div>
                     <div className="flex-col">
