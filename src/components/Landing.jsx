@@ -12,7 +12,7 @@ const Landing = () => {
                         <Experience title="Solutions, Consulting, & Engineering Intern" description="Delivery Insights & Optimization" company="World Wide Technology" link="https://www.wwt.com" time="June 2026 — August 2026" image="./wwt.svg" imagealt="World Wide Technology logo"></Experience>
                         <Experience title="Software Engineer Intern" description="Data Engineering (Cloud)" company="Opal" link="https://www.opal.community" time="December 2025 — May 2026" image="./opal.svg" imagealt="Opal logo" />
                         <Experience title="Game Developer" description="Settings, Shop, & Player Implementation" company="Dungeon Dilemma" link="https://vgdc-uci.framer.website" time="September 2025 — December 2025" image="./vgdc.svg" imagealt="Video Game Development Club at UCI logo" />
-                        <Experience title="Data Analytics Intern" description="Administrative & Literacy Services" company="City of Burbank" link="https://www.burbankca.gov" time="June 2025 — August 2025" image="./cityofburbank.svg" imagealt="City of Burbank logo" />
+                        <Experience title="Data Analyst Intern" description="Administrative & Literacy Services" company="City of Burbank" link="https://www.burbankca.gov" time="June 2025 — August 2025" image="./cityofburbank.svg" imagealt="City of Burbank logo" />
                     </div>
                 </div>
                 <div className="border-t border-gray-300 my-5"></div>
