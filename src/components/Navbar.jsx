@@ -18,11 +18,6 @@ const Navbar = () => {
                     Resume
                 </button>
             </Link>
-            <Link to="/contact">
-                <button className="font-bold">
-                    Contact
-                </button>
-            </Link>
         </div>
     )
 }
