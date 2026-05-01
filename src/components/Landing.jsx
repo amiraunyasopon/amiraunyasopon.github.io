@@ -10,7 +10,7 @@ const Landing = () => {
                 <div>
                     <div className="flex-col">
                         <Experience title="Solutions, Consulting, & Engineering Intern" description="Delivery Insights & Optimization" company="World Wide Technology" link="https://www.wwt.com" time="June 2026 — August 2026" image="./wwt.svg" imagealt="World Wide Technology logo"></Experience>
-                        <Experience title="Software Engineer Intern" description="Data (Cloud) & UI/UX" company="Opal" link="https://www.opal.community" time="December 2025 — May 2026" image="./opal.svg" imagealt="Opal logo" />
+                        <Experience title="Software Engineer Intern" description="Cloud & Frontend" company="Opal" link="https://www.opal.community" time="December 2025 — May 2026" image="./opal.svg" imagealt="Opal logo" />
                         <Experience title="Game Developer" description="Menu, Shop, Ranged Character Implementation" company="Dungeon Dilemma" link="https://fire05s.itch.io/dungeon-dilemma" time="September 2025 — November 2025" image="./dungeondilemma.svg" imagealt="Video Game Development Club at UCI logo" />
                         <Experience title="Data Analyst Intern" description="Administrative & Literacy Services" company="City of Burbank" link="https://www.burbankca.gov" time="June 2025 — August 2025" image="./cityofburbank.svg" imagealt="City of Burbank logo" />
                     </div>
