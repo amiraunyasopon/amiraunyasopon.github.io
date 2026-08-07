@@ -3,7 +3,7 @@ import Footer from "./Footer";
 const Contact = () => {
     return (
         <div className="flex flex-col items-center min-h-screen">
-            <div className="w-full max-w-screen-lg px-4 sm:px-8">
+            <div className="w-full max-w-5xl px-4 sm:px-8">
                 <h1 className="text-3xl text-center">Contact</h1>
                 <div className="border-t border-gray-300 my-5"></div>
                 <div className="w-full h-auto text-center flex flex-col justify-center">

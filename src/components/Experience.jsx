@@ -12,7 +12,12 @@ const Experience = (props) => {
             </div>
             <div className="flex-1 justify-center min-w-[250px]">
                 <a href={props.link}>
-                    <img src={props.image} alt={props.imagealt} className="h-full w-full object-contain hover:brightness-75 trnsition duration-300" />
+                    <img
+                        src={props.image}
+                        alt={props.imagealt}
+                        className="h-full w-full object-contain hover:brightness-75 trnsition duration-300"
+                        style={{ transform: "translateZ(0)", willChange: "transform" }}
+                    />
                 </a>
             </div>
         </div>
